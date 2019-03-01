@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+ 	<RelativeLayout
+ 	    android:id="@+id/login_top_layout"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="45dp"
+ 	    android:layout_alignParentTop="true"
+ 	    android:background="@drawable/header_bg" >
+
+        <Button
+            android:id="@+id/userInfor_back"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="返回"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:onClick="userInfor_back"
+            android:background="@drawable/title_btn_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="用户信息"
+           />
+        
+    </RelativeLayout>
+  	<!-- 账号 -->
+
+  	<TextView
+  	    android:id="@+id/user_phone_t"
+  	    style="@style/normalText"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_alignParentTop="true"
+  	    android:layout_marginLeft="20dp"
+  	    android:layout_marginRight="20dp"
+  	    android:layout_marginTop="5dp"
+  	    android:text="手机号" />
+
+  	<EditText
+  	    android:id="@+id/user_phone"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:layout_below="@id/login_user"
+  	    android:layout_marginLeft="20dp"
+  	    android:layout_marginRight="20dp"
+  	    android:layout_marginTop="5dp"
+  	    android:background="@drawable/login_editbox"
+  	    android:inputType="phone"
+  	    android:singleLine="true" />
+
+    <!-- 手机 text -->
+
+    <TextView
+        android:id="@+id/user_weixin_t"
+        style="@style/normalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:text="微信" />
+
+   <EditText
+       android:id="@+id/user_weixin"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="@drawable/login_editbox"
+       android:inputType="text"
+       android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/user_qq_t"
+        style="@style/normalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:text="QQ" />
+
+    <EditText
+        android:id="@+id/user_qq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_editbox"
+        android:inputType="text"
+        android:singleLine="true" />
+   
+    <!-- qq -->
+
+   <Button
+       android:id="@+id/reg_button"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/btn_style_green"
+       android:onClick="setuser_infor"
+       android:text="设   置" />
+      
+ </LinearLayout>
+

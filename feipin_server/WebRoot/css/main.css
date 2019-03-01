@@ -1,0 +1,14 @@
+/* CSS Document */
+* { margin:0 auto; padding:0;}
+body{font:12px "ËÎÌו"; color:#075B92;overflow:hidden;}
+table
+{
+	font-size:12px;
+}
+a { text-decoration:none; color:#075B92;}
+
+.table_top { border:1px solid #5BA8DE; margin-top:5px;}
+.top { background:url(../images/index/right_table_bg.jpg) repeat-x; height:26px; border-bottom:1px solid #5BA8DE;text-align:left;}
+.td_top{
+	color:#075B92;
+}

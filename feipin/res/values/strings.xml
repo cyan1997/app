@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">废品回收</string>
+    <string name="action_settings">设置</string>
+
+
+    <string name="hello_world">Hello world!</string>
+	<string name="msg_default_status">将二维码放入框内，即可自动扫描</string>
+	
+		<array name="order_deal_name">
+    	<item name = "order_account">确定结账</item>
+    	<item name = "order_cancel">取消该订单</item>
+    </array>
+</resources>

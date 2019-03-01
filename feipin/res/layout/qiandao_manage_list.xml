@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffefebe7" >
+
+    <RelativeLayout
+        android:id="@+id/login_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="用户签到 "
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android1:id="@+id/add_liuyan1"
+            android1:layout_width="70dp"
+            android1:layout_height="wrap_content"
+            android1:layout_alignParentBottom="true"
+            android1:layout_alignParentRight="true"
+            android1:background="@drawable/title_btn_back"
+            android1:onClick="add_liuyan"
+            android1:text="签到"
+            android1:textColor="#fff"
+            android1:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/liuyan_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/login_top_layout"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:divider="#CCCCCC" >
+    </ListView>
+
+</RelativeLayout>

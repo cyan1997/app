@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 商品详情 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/grid_selector"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/shoe_definite_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dip"
+        android:background="@drawable/bg4"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/liuyan_list_name"
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="签到信息："
+            android:textColor="@color/spikearedetail_productname_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/liuyan_list_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/home_list_color"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="65dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="签到人："
+                android:textColor="@color/spikearedetail_productname_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/liuyan_list_user"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/home_list_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

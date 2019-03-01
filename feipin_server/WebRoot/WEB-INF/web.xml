@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/servlet/LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchShiWuServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.SearchShiWuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchShiWuServlet</servlet-name>
+		<url-pattern>/servlet/SearchShiWuServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LiuyanServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.LiuyanServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LiuyanServlet</servlet-name>
+		<url-pattern>/servlet/LiuyanServlet</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>LiuyanListServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.LiuyanListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LiuyanListServlet</servlet-name>
+		<url-pattern>/servlet/LiuyanListServlet</url-pattern>
+	</servlet-mapping>
+
+     <servlet>
+		<servlet-name>InforServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.InforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InforServlet</servlet-name>
+		<url-pattern>/servlet/InforServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>QiandaoServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.QiandaoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QiandaoServlet</servlet-name>
+		<url-pattern>/servlet/QiandaoServlet</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>QiandaoListServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.QiandaoListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QiandaoListServlet</servlet-name>
+		<url-pattern>/servlet/QiandaoListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SetUserInforServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.SetUserInforServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SetUserInforServlet</servlet-name>
+		<url-pattern>/servlet/SetUserInforServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShiWuInfoServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.ShiWuInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShiWuInfoServlet</servlet-name>
+		<url-pattern>/servlet/ShiWuInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ShiWuListServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.ShiWuListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShiWuListServlet</servlet-name>
+		<url-pattern>/servlet/ShiWuListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/servlet/RegisterServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchCommodityServlet</servlet-name>
+		<servlet-class>com.feipin.servlet.SearchCommodityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchCommodityServlet</servlet-name>
+		<url-pattern>/servlet/SearchCommodityServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
